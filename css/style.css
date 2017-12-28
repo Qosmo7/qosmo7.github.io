@@ -485,11 +485,14 @@ article.clients{
 	margin: 20px 1px;
 }
 
+.slider{
+	outline: none;	
+}
 .slider .slick-prev{
-    left: -30px;
+    	left: -30px;
 }
 .slider .slick-next{
-    right: -30px;
+    	right: -30px;
 }
 .slider .slick-prev, .slider .slick-next{
 	width: 50px;
