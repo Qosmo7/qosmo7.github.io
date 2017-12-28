@@ -485,9 +485,6 @@ article.clients{
 	margin: 20px 1px;
 }
 
-.slick-slide{
-	outline: none;	
-}
 .slider .slick-prev{
     	left: -30px;
 }
