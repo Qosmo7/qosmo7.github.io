@@ -67,6 +67,13 @@ header nav{
 	font-size: 30px;
 	float: right;
 }
+header nav button{
+	border:none;
+	background-color: transparent;
+}
+header nav ul li a{
+	font: 400 16px 'Open Sans', sans-serif;
+}
 header h1{
 	margin: 140px 0 30px 0;
 	padding: 0;
@@ -463,7 +470,8 @@ article.clients{
 	border: 1px solid #CFCFCF;
 	position: absolute;
 	top: -50px;
-	left: 217px;
+	left: 50%;
+	margin-left: -50px;
 	z-index: 2000;
 }
 .clients-item p{
@@ -485,11 +493,14 @@ article.clients{
 	margin: 20px 1px;
 }
 
+.clients .slick-list{
+	padding-top: 50px;
+}
 .slider .slick-prev{
-    	left: -30px;
+    left: -30px;
 }
 .slider .slick-next{
-    	right: -30px;
+    right: -30px;
 }
 .slider .slick-prev, .slider .slick-next{
 	width: 50px;
@@ -608,6 +619,13 @@ footer p{
 }
 /*-- Footer --*/
 
+.services .item-button:hover {
+	background-color: #F7F7F7;
+}
+.footer-but:hover {
+	background-color: #FBFBFB;
+}
+
 /*-- Media Query --*/
 @media (max-width: 420px) {
 	header{
@@ -667,9 +685,6 @@ footer p{
 		height: 355.5px;
 		padding: 85px 35px 0 35px;
 		margin-bottom: 75px;
-	}
-	.item-sq{
-		left: 85px;
 	}
 	.clients-item .prev, .clients-item .next{
 		top: 135px;
@@ -753,9 +768,6 @@ footer p{
 		width: 320px;
 		height: 329.5px;
 		margin-bottom: 75px;
-	}
-	.item-sq{
-		left: 108px;
 	}
 	.clients-item .prev, .clients-item .next{
 		top: 135px;
